@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
@@ -124,7 +125,6 @@
       </div>
     </div>
 
-
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
@@ -134,64 +134,72 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Bio-Logger</h1>
+          <h1>Product: Development Version</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Monitor your health on the move with Bio-Logger.</p>
+          <p class="lead">One sentence description.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
+          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>0</h3> <p>backers</p>
+                <h3>1000</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>£0</h3> <p>of £500,000</p>
+                  <h3>$6000</h3> <p>of $10,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3>100</h3> <p>days left</p>
+                <h3>10</h3> <p>days left</p>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 0%;"></div>
-              <div class="bar bar-warning" style="width: 100%;"></div>
+              <div class="bar bar-success" style="width: 60%;"></div>
+              <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+          </div>
+        </div>
         </div>
       </div>
 
@@ -201,22 +209,21 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-           <img src="http://i.imgur.com/ftV68n3.jpg" title="Hosted by imgur.com"/>
+          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
         </div>
         <div class="span5 copy">
           <p>
-            The Bio-Logger will be the new compact gadget that no-one should
-            be without.  It will replace the need to carry a pulse monitor,
-            a temperature monitor and a pedometer with a single sensor that
-            slips onto the strap of any wristwatch,  It will monitor and record 
-            youur bio-readings 24 hours a day, 7 days a week.
-          </p>
-          <p>
-            When the Bio-Logger comes in range of a wireless signal, it will
-            automatically upload the recorded bio-readings to our servers in 
-            the cloud.  Using any web browser or mobile device you can view 
-            your readings and generate reports using historic data to identify 
-            trends and paterns.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
+            mollis justo velit at nunc. Fusce nec egestas sem. Donec
+            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
+            volutpat lorem ut congue malesuada. In facilisis scelerisque
+            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
+            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
+            rutrum, nunc leo tempus nisl, eu mollis justo velit at
+            nunc. Fusce nec egestas sem. Donec fringilla.
           </p>
         </div>
       </div>
@@ -224,22 +231,21 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            The Bio-Logger will also act as a warning device if your bio-readings
-            begin to record abnormal values.  It will detect if your heartbeat begins
-            to get dangerously high, or dangerously low and give an audible sound 
-            to attract your attention for you to take appropriate action.  
-          </p>
-          <p>
-            The advanced Bio-Loger Excel will come with a built in GPS and a 1 year subscription
-            to the Bio-Loger Health Monitoring Service.  With this service the Bio-Logger
-            will transmit a wireless signal to us if your readings become abnormal along 
-            with your GPS position.  We will try to contact you by your registered phone 
-            number.  If we cannot contact you we will automatically send an ambulance to your 
-            location. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
+            mollis justo velit at nunc. Fusce nec egestas sem. Donec
+            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
+            volutpat lorem ut congue malesuada. In facilisis scelerisque
+            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
+            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
+            rutrum, nunc leo tempus nisl, eu mollis justo velit at
+            nunc. Fusce nec egestas sem. Donec fringilla.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
         </div>
       </div>
 
@@ -281,7 +287,6 @@
 
       </div>
 
-
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
       <!-- http://creativecommons.org/licenses/ -->
       <div class="row-fluid footer">
@@ -296,3 +301,4 @@
     </div>
   </body>
 </html>
+
